@@ -1,0 +1,10 @@
+{% extends parent_template|default:"base.html" %}
+{% load staticfiles %}
+{% block css %}
+  <link rel="stylesheet" type="text/css"
+        href="{% static 'golf_course/styles.css' %}"/>
+{% endblock %}
+{% block img %}
+   <img src="{% static 'golf_course/1229_golf.jpg' %}" alt="The Green"
+        style="height:300px";/>
+{% endblock %} 

@@ -1,0 +1,5 @@
+golf_course
+golfer
+golfer_polls
+tournament
+wgt_site

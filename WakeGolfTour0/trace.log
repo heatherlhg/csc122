@@ -1,0 +1,55 @@
+2019-01-11 00:05:14,508 - trace_logger - INFO - Entering main
+2019-01-11 00:05:14,508 - trace_logger - INFO - Entering create_golf_courses
+2019-01-11 00:05:14,508 - trace_logger - INFO - <<< Arguments ('golfCoursesInput.csv',)
+2019-01-11 00:05:14,509 - trace_logger - INFO - Entering GolfCourse.__init__
+2019-01-11 00:05:14,509 - trace_logger - INFO - <<< Arguments (1, 'Raleigh Golf Course', 72)
+2019-01-11 00:05:14,509 - trace_logger - INFO - Returning GolfCourse.__init__
+2019-01-11 00:05:14,509 - trace_logger - INFO - Entering GolfCourse.__init__
+2019-01-11 00:05:14,509 - trace_logger - INFO - <<< Arguments (2, 'WTCC Golf Course', 72)
+2019-01-11 00:05:14,510 - trace_logger - INFO - Returning GolfCourse.__init__
+2019-01-11 00:05:14,510 - trace_logger - INFO - Entering GolfCourse.__init__
+2019-01-11 00:05:14,510 - trace_logger - INFO - <<< Arguments (3, 'Garner Golf Course', 72)
+2019-01-11 00:05:14,510 - trace_logger - INFO - Returning GolfCourse.__init__
+2019-01-11 00:05:14,510 - trace_logger - INFO - Entering GolfCourse.__init__
+2019-01-11 00:05:14,510 - trace_logger - INFO - <<< Arguments (4, 'Cary Golf Course', 72)
+2019-01-11 00:05:14,510 - trace_logger - INFO - Returning GolfCourse.__init__
+2019-01-11 00:05:14,510 - trace_logger - INFO - Entering GolfCourse.__init__
+2019-01-11 00:05:14,511 - trace_logger - INFO - <<< Arguments (5, 'Apex Golf Course', 72)
+2019-01-11 00:05:14,511 - trace_logger - INFO - Returning GolfCourse.__init__
+2019-01-11 00:05:14,511 - trace_logger - INFO - Entering GolfCourse.__str__
+2019-01-11 00:05:14,511 - trace_logger - INFO - Returning GolfCourse.__str__
+2019-01-11 00:05:14,511 - trace_logger - INFO - <<< Results 1,Raleigh Golf Course,72
+2019-01-11 00:05:14,511 - trace_logger - INFO - Entering GolfCourse.__str__
+2019-01-11 00:05:14,511 - trace_logger - INFO - Returning GolfCourse.__str__
+2019-01-11 00:05:14,511 - trace_logger - INFO - <<< Results 2,WTCC Golf Course,72
+2019-01-11 00:05:14,512 - trace_logger - INFO - Entering GolfCourse.__str__
+2019-01-11 00:05:14,512 - trace_logger - INFO - Returning GolfCourse.__str__
+2019-01-11 00:05:14,512 - trace_logger - INFO - <<< Results 3,Garner Golf Course,72
+2019-01-11 00:05:14,512 - trace_logger - INFO - Entering GolfCourse.__str__
+2019-01-11 00:05:14,512 - trace_logger - INFO - Returning GolfCourse.__str__
+2019-01-11 00:05:14,512 - trace_logger - INFO - <<< Results 4,Cary Golf Course,72
+2019-01-11 00:05:14,512 - trace_logger - INFO - Entering GolfCourse.__str__
+2019-01-11 00:05:14,512 - trace_logger - INFO - Returning GolfCourse.__str__
+2019-01-11 00:05:14,512 - trace_logger - INFO - <<< Results 5,Apex Golf Course,72
+2019-01-11 00:05:14,513 - trace_logger - INFO - Returning create_golf_courses
+2019-01-11 00:05:14,513 - trace_logger - INFO - <<< Results ([<golfCourse.GolfCourse object at 0x10f5e7358>, <golfCourse.GolfCourse object at 0x10f5e7390>, <golfCourse.GolfCourse object at 0x10f5e73c8>, <golfCourse.GolfCourse object at 0x10f5e7400>, <golfCourse.GolfCourse object at 0x10f5e7438>], {1: [(1, 4), (2, 3), (3, 4), (4, 4), (5, 4), (6, 5), (7, 4), (8, 4), (9, 4), (10, 4), (11, 3), (12, 4), (13, 4), (14, 4), (15, 5), (16, 4), (17, 4), (18, 4)], 2: [(1, 4), (2, 4), (3, 3), (4, 4), (5, 4), (6, 4), (7, 5), (8, 4), (9, 4), (10, 4), (11, 4), (12, 3), (13, 4), (14, 4), (15, 4), (16, 5), (17, 4), (18, 4)], 3: [(1, 4), (2, 4), (3, 4), (4, 4), (5, 5), (6, 4), (7, 4), (8, 4), (9, 3), (10, 4), (11, 4), (12, 4), (13, 5), (14, 4), (15, 4), (16, 4), (17, 3), (18, 4)], 4: [(1, 4), (2, 4), (3, 4), (4, 4), (5, 3), (6, 4), (7, 5), (8, 4), (9, 4), (10, 5), (11, 4), (12, 4), (13, 4), (14, 3), (15, 4), (16, 4), (17, 4), (18, 4)], 5: [(1, 4), (2, 4), (3, 4), (4, 5), (5, 4), (6, 4), (7, 3), (8, 4), (9, 4), (10, 4), (11, 5), (12, 4), (13, 4), (14, 4), (15, 3), (16, 4), (17, 4), (18, 4)]})
+2019-01-11 00:05:14,513 - trace_logger - INFO - Entering write_objs_to_file
+2019-01-11 00:05:14,513 - trace_logger - INFO - <<< Arguments ('golfCourses.csv', [<golfCourse.GolfCourse object at 0x10f5e7358>, <golfCourse.GolfCourse object at 0x10f5e7390>, <golfCourse.GolfCourse object at 0x10f5e73c8>, <golfCourse.GolfCourse object at 0x10f5e7400>, <golfCourse.GolfCourse object at 0x10f5e7438>])
+2019-01-11 00:05:14,513 - trace_logger - INFO - Entering GolfCourse.__str__
+2019-01-11 00:05:14,514 - trace_logger - INFO - Returning GolfCourse.__str__
+2019-01-11 00:05:14,514 - trace_logger - INFO - <<< Results 1,Raleigh Golf Course,72
+2019-01-11 00:05:14,514 - trace_logger - INFO - Entering GolfCourse.__str__
+2019-01-11 00:05:14,514 - trace_logger - INFO - Returning GolfCourse.__str__
+2019-01-11 00:05:14,514 - trace_logger - INFO - <<< Results 2,WTCC Golf Course,72
+2019-01-11 00:05:14,514 - trace_logger - INFO - Entering GolfCourse.__str__
+2019-01-11 00:05:14,514 - trace_logger - INFO - Returning GolfCourse.__str__
+2019-01-11 00:05:14,515 - trace_logger - INFO - <<< Results 3,Garner Golf Course,72
+2019-01-11 00:05:14,515 - trace_logger - INFO - Entering GolfCourse.__str__
+2019-01-11 00:05:14,515 - trace_logger - INFO - Returning GolfCourse.__str__
+2019-01-11 00:05:14,515 - trace_logger - INFO - <<< Results 4,Cary Golf Course,72
+2019-01-11 00:05:14,515 - trace_logger - INFO - Entering GolfCourse.__str__
+2019-01-11 00:05:14,515 - trace_logger - INFO - Returning GolfCourse.__str__
+2019-01-11 00:05:14,515 - trace_logger - INFO - <<< Results 5,Apex Golf Course,72
+2019-01-11 00:05:14,515 - trace_logger - INFO - Returning write_objs_to_file
+2019-01-11 00:05:14,515 - trace_logger - INFO - <<< Results None
+2019-01-11 00:05:14,516 - trace_logger - INFO - Returning main

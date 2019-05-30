@@ -1,0 +1,10 @@
+{% extends parent_template|default:"base.html" %}
+{% load staticfiles %}
+{% block css %} 
+  <link rel="stylesheet" type="text/css" 
+        href="{% static 'tournament/styles.css' %}" />
+{% endblock %}
+
+{% block img %} 
+   <img src="{% static 'tournament/GolfTournament.png' %}" alt="WGT" style="height:300px"; />       
+{% endblock %}
